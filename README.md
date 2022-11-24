@@ -104,11 +104,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo">https://www.loom.com/share/8276eadf384d4fd29e7a01214553342a</a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://www.loom.com/share8276eadf384d4fd29e7a01214553342a)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
