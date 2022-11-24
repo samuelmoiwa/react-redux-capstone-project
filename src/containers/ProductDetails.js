@@ -1,10 +1,14 @@
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable no-restricted-globals */
 /* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect } from 'react';
 import axios from 'axios';
-import { useParams } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
+import backArrow from './back_arrow.png';
 import { selectedProduct, removeSelectedProduct } from '../redux/actions/productsActions';
 
 const URL = 'https://fakestoreapi.com/products/';
@@ -25,6 +29,8 @@ const ProductDetails = () => {
     dispatch(selectedProduct(response.data));
   };
 
+  const navigateBack = useHistory();
+
   useEffect(() => {
     if (productId && productId !== '') fetchProductDetail(productId);
     return () => {
@@ -38,7 +44,8 @@ const ProductDetails = () => {
         <div>...Loading</div>
       ) : (
         <div className="ui placeholder segment">
-          <div className="ui two column stackable center aligned grid">
+          <img src={backArrow} alt="back" className="back_arrow" onClick={() => navigateBack.goBack()} />
+          <div className="ui two column stackable center aligned grid testF">
             <div className="ui vertical divider">AND</div>
             <div className="middle aligned row">
               <div className="column lp">
