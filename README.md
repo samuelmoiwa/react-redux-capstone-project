@@ -248,7 +248,8 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank Dipesh Malvia for such a wonderful tutorial 
+I would like to thank Dipesh Malvia for such a wonderful tutorial <br>
+Thanks to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the beautiful design template.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
