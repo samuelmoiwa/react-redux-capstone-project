@@ -1,5 +1,5 @@
 /* eslint-disable import/named */
-import ActionTypes from '../constants/action-types';
+import { ActionTypes } from '../constants/action-types';
 
 const intialState = {
   products: [],
