@@ -1,9 +1,9 @@
-import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import ProductListing from "./containers/ProductListing";
-import Header from "./containers/Header";
-import "./App.css";
-import ProductDetails from "./containers/ProductDetails";
+import React from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import ProductListing from './containers/ProductListing';
+import Header from './containers/Header';
+import './App.css';
+import ProductDetails from './containers/ProductDetails';
 
 function App() {
   return (
