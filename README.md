@@ -108,7 +108,9 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://www.loom.com/share/8276eadf384d4fd29e7a01214553342a)
+- [Live Demo Link](https://samuelmoiwa.github.io/react-redux-capstone-project/#/)
+
+- [Loom video link](https://www.loom.com/share/8276eadf384d4fd29e7a01214553342a)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
